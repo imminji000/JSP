@@ -48,6 +48,8 @@ public class LogoutController extends HttpServlet {
 		logger.info("LogoutController...3");
 		
 		resp.sendRedirect("/JBoard2/user/login.do?success=201");
+		
+		
 	}
 	
 	@Override
